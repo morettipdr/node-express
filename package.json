@@ -1,15 +1,15 @@
 {
-  "name": "node-and-express",
+  "name": "and-express",
   "version": "1.0.0",
-  "description": "",
   "main": "1-intro.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "lodash": "^4.17.21"
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
